@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Merriweather:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+/* 
+* {
+    font-family: 'Poppins', 'Inter', sans-serif !important;
+} */
+
+body footer {
+    background: linear-gradient(293.57deg, #114E4E 0%, #052D2D 23.8%, #041111 42.57%, #000909 63.76%, #000909 69.62%);
+    color: #EEEEEE;
+    padding-top: 72px !important;
+    padding-bottom: 36px !important;
+}
+
+body footer h5 {
+    font-weight: 600 !important;
+    size: 16px !important;
+    line-height: 150%;
+    color: #ECF1F4;
+}
+
+body footer .address p {
+    font-weight: 400 !important;
+    size: 16px !important;
+    line-height: 150%;
+    color: #ECF1F4;
+}
+
+body footer .nav-footer p {
+    font-weight: 700 !important;
+    size: 16px !important;
+    line-height: 150%;
+    color: #ECF1F4;
+}
+
+body footer .nav-footer a {
+    font-weight: 400 !important;
+    size: 16px !important;
+    color: #ECF1F4;
+}
+
+body footer li {
+    margin-bottom: 12px;
+}
+
+body footer .social-media a {
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+body footer .copyright {
+    margin-top: 76px;
+    padding-top: 36px;
+}
+
+body footer .copyright p {
+    font-weight: 400 !important;
+    size: 16px !important;
+    color: #ECF1F4;
+}
+
+body .cl-light {
+    color: #EEEEEE;
+}
+
+body .cl-light-grey-2 {
+    color: #90BCB7;
+}
+
+body .font-lora {
+    font-family: 'Lora', sans-serif !important;
+}

@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- icon/logo di link URL web -->
+  <link rel="shortcut icon" href="img/logogg.jpg" type="image/png">
+
+  <!-- link css dari luar folder -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+  <!-- akhir dari link css luar folder -->
+
+  <!-- link css dari dalam folder web    -->
+  <link rel="stylesheet" href="css/nav.css" />
+  <link rel="stylesheet" href="css/home.css" />
+  <link rel="stylesheet" href="css/footer.css" />
+  <link rel="stylesheet" href="animate/animate.css" />
+  <link rel="stylesheet" href="css/theme.css" />
+  <link rel="stylesheet" href="css/button.css" />
+  <!-- akhir dari css dalam folder web -->
+
+  <!-- meta SEO -->
+  <!-- Primary Meta Tags -->
+<title>Teksboxx — Home</title>
+<meta name="title" content="Teksboxx — Home">
+<meta name="description" content="Teksboxx merupakan website yang menyediakan blog, artikel, tutorial seputar komputer. teksboxx memiliki beberapa App Ultilities yang berguna untuk kebutuhan sehar-hari">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://teksboxx.com/home">
+<meta property="og:title" content="Teksboxx — Home">
+<meta property="og:description" content="Teksboxx merupakan website yang menyediakan blog, artikel, tutorial seputar komputer. teksboxx memiliki beberapa App Ultilities yang berguna untuk kebutuhan sehar-hari">
+<meta property="og:image" content="img/logogg.jpg">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://teksboxx.com/home">
+<meta property="twitter:title" content="Teksboxx — Home">
+<meta property="twitter:description" content="Teksboxx merupakan website yang menyediakan blog, artikel, tutorial seputar komputer. teksboxx memiliki beberapa App Ultilities yang berguna untuk kebutuhan sehar-hari">
+<meta property="twitter:image" content="img/logogg.jpg">
+  <!-- akhir dari meta SEO -->
+
+</head>
+
+<body>
+
+  <!-- section ukuran dan warna canvas web -->
+  <section class="h-100 w-100" style="box-sizing: border-box;background-color: #eef0f8;">
+
+    <!-- Preloader -->
+    <div id="preloader">
+      <div class="outer">
+        <!-- Google Chrome -->
+        <div class="infinityChrome">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+
+        <!-- Safari and others -->
+        <div class="infinity">
+          <div>
+            <span></span>
+          </div>
+          <div>
+            <span></span>
+          </div>
+          <div>
+            <span></span>
+          </div>
+        </div>
+        <!-- Stuff -->
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="goo-outer">
+          <defs>
+            <filter id="goo">
+              <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur" />
+              <feColorMatrix in="blur" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+              <feBlend in="SourceGraphic" in2="goo" />
+            </filter>
+          </defs>
+        </svg>
+      </div>
+    </div>
+    <!-- akhir dari preloader/loading page web -->
+
+    <!-- contasiner untuk header kebawah -->
+    <div class="container header-3-3 container-xxl mx-auto p-0 position-relative"
+      style="font-family: 'Poppins', sans-serif">
+      <!-- nav header responsif yang untuk tampilan mobile -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-white rounded shadow p-3 mb-5">
+        <a href="home.html">
+          <img style="margin-right: 0.75rem; height: 70px; width: 80px" src="img/logogg.jpg" alt="" width="30"
+            height="24" />
+          <h4 class="d-inline-block font-weight-bold align-text-center" style="color: #243142;font-weight: 700;">
+            Teksboxx
+          </h4>
+        </a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="modal" data-bs-target="#targetModal-item">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="modal-item modal fade" id="targetModal-item" tabindex="-1" role="dialog"
+          aria-labelledby="targetModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content bg-white border-0">
+              <div class="modal-header border-0" style="padding: 2rem; padding-bottom: 0">
+                <a class="modal-title" id="targetModalLabel">
+                  <img style="margin-top: 0.5rem; height: 70px; width: 80p" src="img/logogg.jpg" alt="" />
+                </a>
+                <button type="button" class="close btn-close text-white" data-bs-dismiss="modal"
+                  aria-label="Close"></button>
+              </div>
+              <div class="modal-body" style="padding: 2rem; padding-top: 0; padding-bottom: 0">
+                <ul class="navbar-nav responsive me-auto mt-2 mt-lg-0">
+                  <li class="nav-item active position-relative">
+                    <a class="nav-link main" style="color: #243142" href="home.html">Home</a>
+                  </li>
+                  <li class="nav-item position-relative">
+                    <a class="nav-link" href="profile.html">Profile</a>
+                  </li>
+                  <li class="nav-item position-relative">
+                    <a class="nav-link" href="blog.html">Blog</a>
+                  </li>
+                  <li class="nav-item position-relative">
+                    <a class="nav-link" href="utilities.html">Utilities</a>
+                  </li>
+                </ul>
+                <h6 style="color: #4e91f9;font-size: 4vw;-webkit-text-stroke: 2px #4e91f9;" id="waktu"></h6>
+
+                <!-- javascript jam realtime -->
+                <script type="text/javascript">
+                  window.onload = function () {
+                    waktu();
+                  };
+
+                  function waktu() {
+                    var e = document.getElementById("waktu"),
+                      d = new Date(), h, m, s;
+                    h = d.getHours();
+                    m = set(d.getMinutes());
+                    s = set(d.getSeconds());
+
+                    e.innerHTML = h + ":" + m + ":" + s;
+
+                    setTimeout("waktu()", 1000);
+                  }
+
+                  function set(e) {
+                    e = e < 10 ? "0" + e : e;
+                    return e;
+                  }
+                </script>
+                <!-- akhir javascript jam realtime -->
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- akhir dari navbar mobile -->
+
+        <!-- nav header untuk tampilan yang website desktop -->
+        <div class="collapse navbar-collapse " id="navbarTogglerDemo">
+          <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+            <li class="nav-item active position-relative">
+              <a class="nav-link main" style="color: #243142" href="home.html">Home</a>
+            </li>
+            <li class="nav-item position-relative">
+              <a class="nav-link" href="profile.html">Profile</a>
+            </li>
+            <li class="nav-item position-relative">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item position-relative">
+              <a class="nav-link" href="utilities.html">Utilities</a>
+            </li>
+          </ul>
+          <h6 style="color: #4e91f9;font-size: 2vw;-webkit-text-stroke: 2px #4e91f9;" id="jam"></h6>
+
+          <!-- javascript jam -->
+          <script type="text/javascript">
+            window.onload = function () {
+              jam();
+            };
+
+            function jam() {
+              var e = document.getElementById("jam", "waktu"),
+                d = new Date(), h, m, s;
+              h = d.getHours();
+              m = set(d.getMinutes());
+              s = set(d.getSeconds());
+
+              e.innerHTML = h + ":" + m + ":" + s;
+
+              setTimeout("jam()", 1000);
+              setTimeout("waktu()", 1000);
+            }
+
+            function set(e) {
+              e = e < 10 ? "0" + e : e;
+              return e;
+            }
+          </script>
+          <!-- akhir javascript jam -->
+        </div>
+      </nav>
+      <!-- akhir dari seluruh navbar -->
+
+      <!-- hero tampilan myface dan juga quotes dengan judul besar -->
+      <div class=" bg-white rounded shadow mx-auto d-flex flex-lg-row flex-column hero">
+        <!-- Left Column -->
+        <div
+          class=" flex-lg-grow-1 d-flex flex-column  align-items-center text-center">
+          <h1 class="title-text-big">
+            "We Believe That<br class="d-lg-block d-none" />
+            <span style="color: #4E91F9">Computers</span> Can<br class="d-lg-block d-none" />
+            Do Wonders"
+          </h1>
+          <p class="text-caption">
+            <br class="d-sm-block d-none" />- Bill Gates
+          </p>
+          <div class="d-flex flex-sm-row flex-column align-items-center mx-auto mx-lg-0 justify-content-center gap-3">
+            <button class="btn btn-outline d-inline-flex">
+              <a href="#" class=" d-inline-flex text-decoration-none">Our Work</a>
+            </button>
+            <button class="btn btn-outline">
+              <div class="d-flex align-items-center">
+                <svg class="me-2" width="26" height="26" viewBox="0 0 26 26" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M15.9295 13L11.6668 10.158V15.842L15.9295 13ZM17.9175 13.2773L10.8515 17.988C10.8013 18.0214 10.743 18.0406 10.6828 18.0434C10.6225 18.0463 10.5627 18.0328 10.5095 18.0044C10.4563 17.9759 10.4119 17.9336 10.3809 17.8818C10.3499 17.8301 10.3335 17.771 10.3335 17.7107V8.28933C10.3335 8.22904 10.3499 8.16988 10.3809 8.11816C10.4119 8.06644 10.4563 8.0241 10.5095 7.99564C10.5627 7.96718 10.6225 7.95367 10.6828 7.95655C10.743 7.95943 10.8013 7.9786 10.8515 8.012L17.9175 12.7227C17.9631 12.7531 18.0006 12.7943 18.0265 12.8427C18.0524 12.8911 18.0659 12.9451 18.0659 13C18.0659 13.0549 18.0524 13.1089 18.0265 13.1573C18.0006 13.2057 17.9631 13.2469 17.9175 13.2773Z"
+                    fill="#A6B1BE" />
+                  <rect x="0.5" y="0.5" width="25" height="25" rx="12.5" stroke="#A6B1BE" />
+                </svg>
+                Watch the video
+              </div>
+            </button>
+          </div>
+        </div>
+
+        <!-- Right Column -->
+        <!-- <div class="mt-5 d-flex justify-content-center justify-content-lg-start text-center pe-0">
+          <img class="position-absolute d-lg-block d-none hero-right " src="img/yudi.png" width="542" height="670"
+            alt="">
+          <div class="d-flex align-items-end card-outer">
+            <div class="mx-auto d-flex flex-wrap align-items-center">
+              <div class="card border-0 position-relative d-flex flex-column">
+                <div class="d-flex align-items-center" style="margin-bottom: 1.25rem">
+
+                  <img style="margin-right: 1rem" src="img/yudi.png" width="42" height="50" alt="">
+
+                  <div class="text-start">
+                    <p class="card-name">Yudi Hendrawan</p>
+                    <p class="card-job">Student</p>
+                  </div>
+                </div>
+                <button type="button" class="btn btn-hire" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Contact Me
+                </button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title fw-bold" id="exampleModalLabel">
+                          CONTACT ME
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body" >
+                        <div class="button d-inline-flex mx-2 "style="font-size: 4em; color:#4E91F9">
+                          <div class="icon ">
+                            <a href="https://www.instagram.com/yudihendrawan_/"><i
+                                class="fab fa-instagram-square "></i></a>
+                          </div>
+                        </div>
+                        <div class="button d-inline-flex mx-2" style="font-size: 4em; color:#4E91F9">
+                          <div class="icon">
+                            <a href="https://wa.link/amh6ww"><i class="fab fa-whatsapp-square "></i></a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">
+                          Close
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+      </div>
+  </section>
+  <!-- akhir dari canvas/ section navbar dan juga fmyface -->
+
+  <!-- content app -->
+  <section class="container bg-white rounded shadow mt-5 mb-5 h1-00 w-100" style="box-sizing: border-box">
+    <div class="content-3-2 container-xxl mx-auto  position-relative" style="font-family: 'Poppins', sans-serif">
+      <div class="d-flex flex-lg-row flex-column align-items-center">
+        <!-- Left Column -->
+        <div class="img-hero text-center justify-content-center d-flex">
+          <img id="hero" class="img-fluid"
+            src="http://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content3/Content-3-1.png"
+            alt="" />
+        </div>
+
+        <!-- Right Column -->
+        <div class="right-column d-flex flex-column align-items-lg-start align-items-center text-lg-start text-center">
+          <h2 class="title-text">Our Fitures</h2>
+          <ul style="padding: 0; margin: 0">
+            <li class="list-unstyled" style="margin-bottom: 2rem">
+              <h4
+                class="title-caption d-flex flex-lg-row flex-column align-items-center justify-content-lg-start justify-content-center">
+                <span class="circle text-white d-flex align-items-center justify-content-center">
+                  1
+                </span>
+                Calculator App
+              </h4>
+              <p class="text-caption">
+                Hanya kalkulator sederhana, dan semogo bisa bermanfaat.. <br class="d-sm-inline d-none" />
+                silahkan cek di tombol <span style="color: #4E91F9; font-weight: bold">See More</span> dibawah<br
+                  class="d-sm-inline d-none" />
+                atau klik <a href="calculator.html"><span
+                    style="color: #4E91F9; font-weight: bold">Calculator</span></a>
+              </p>
+            </li>
+            <li class="list-unstyled" style="margin-bottom: 2rem">
+              <h4
+                class="title-caption d-flex flex-lg-row flex-column align-items-center justify-content-lg-start justify-content-center">
+                <span class="circle text-white d-flex align-items-center justify-content-center">
+                  2
+                </span>
+                Stopwatch App
+              </h4>
+              <p class="text-caption">
+                Coming Soon...<br class="d-sm-inline d-none" />
+              </p>
+            </li>
+            <li class="list-unstyled" style="margin-bottom: 4rem">
+              <h4
+                class="title-caption d-flex flex-lg-row flex-column align-items-center justify-content-lg-start justify-content-center">
+                <span class="circle text-white d-flex align-items-center justify-content-center">
+                  3
+                </span>
+                Timer App
+              </h4>
+              <p class="text-caption">
+                Coming Soon...<br class="d-sm-inline d-none" />
+              </p>
+            </li>
+          </ul>
+          <a href="utilities.html"><button class="btn">See More</button></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- akhir dari content app -->
+
+   <!-- content blog -->
+   <section class="h-100 w-100" style="box-sizing: border-box;background-color: #eef0f8;">
+    <div class="mb-5 bg-white shadow rounded page-section border-top">
+      <div class="container">
+        <div class="text-center wow fadeInUp">
+          <div class="subhead">Our Blog</div>
+          <h2 class="title-section">Read our latest <span style="color: #4E91F9">News</span></h2>
+          <div class="divider mx-auto"></div>
+        </div>
+        <div class="row my-5  card-blog-row">
+  
+          <div class="col-md-6 col-lg-3 py-3 wow fadeInUp">
+            <div class="card-blog">
+              <div class="header">
+                <div class="avatar">
+                  <img src="img/yudi.png" alt="">
+                </div>
+                <div class="entry-footer">
+                  <div class="post-author">Yudi Hendrawan</div>
+                  <a href="ganjil-genap-c++.html" class="post-date">23 Des 2021</a>
+                </div>
+              </div>
+              <div class="body">
+                <div class="post-title"><a href="ganjil-genap-c++.html">Program Menentukan Angka Ganjil Genap C++</a></div>
+                <div class="post-excerpt text-black-50">Program menentukan bilangan ganjil genap adalah program untuk menentukan bilangan yang dimasukan oleh pengguna..</div>
+              </div>
+              <div class="footer">
+                <a href="ganjil-genap-c++.html">Read More <span class="mai-chevron-forward text-sm"></span></a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-md-6 col-lg-3 py-3 wow fadeInUp">
+            <div class="card-blog">
+              <div class="header">
+                <div class="avatar">
+                  <img src="img/blog-content1/robydarwis.jpeg" alt="">
+                </div>
+                <div class="entry-footer">
+                  <div class="post-author">Roby Darwis</div>
+                  <a href="award-kkn-umri.html" class="post-date">23 Des 2021</a>
+                </div>
+              </div>
+              <div class="body">
+                <div class="post-title"><a href="award-kkn-umri.html">KKN 3 Koto Benai 2021 UMRI Borong Kategori Award</div>
+                  <div class="post-excerpt" style="color:#243142">Universitas Muhammadiyah Riau menggelar acara KKN Award yang ditaja oleh lembaga penelitian dan pengabdian kepada masyarakat...</div>
+              </div>
+              <div class="footer">
+                <a href="award-kkn-umri.html">Read More <span class="mai-chevron-forward text-sm"></span></a>
+              </div>
+            </div>
+          </div>
+      
+          <!-- <div class="col-md-6 col-lg-3 py-3 wow fadeInUp">
+            <div class="card-blog">
+              <div class="header">
+                <div class="avatar">
+                  <img src="../assets/img/person/person_2.jpg" alt="">
+                </div>
+                <div class="entry-footer">
+                  <div class="post-author">Someone Else</div>
+                  <a href="#" class="post-date">23 Apr 2020</a>
+                </div>
+              </div>
+              <div class="body">
+                <div class="post-title"><a href="blog-single.html">Coming Soon Content..</a></div>
+                <div class="post-excerpt">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
+              </div>
+              <div class="footer">
+                <a href="blog-single.html">Read More <span class="mai-chevron-forward text-sm"></span></a>
+              </div>
+            </div>
+          </div> -->
+          <!-- <div class="col-md-6 col-lg-3 py-3 wow fadeInUp">
+            <div class="card-blog">
+              <div class="header">
+                <div class="avatar">
+                  <img src="../assets/img/person/person_3.jpg" alt="">
+                </div>
+                <div class="entry-footer">
+                  <div class="post-author">Someone Else</div>
+                  <a href="#" class="post-date">23 Apr 2020</a>
+                </div>
+              </div>
+              <div class="body">
+                <div class="post-title"><a href="blog-single.html">Coming Soon Content..</a></div>
+                <div class="post-excerpt">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
+              </div>
+              <div class="footer">
+                <a href="blog-single.html">Read More <span class="mai-chevron-forward text-sm"></span></a>
+              </div>
+            </div>
+          </div> -->
+        </div>
+  
+        <div class="text-center">
+          <a href="blog.html" class="btn rounded-pill">Discover More</a>
+        </div>
+      </div> <!-- .container -->
+    </div> <!-- .page-section -->
+    <!-- akhir dari content blog -->
+  </section>
+
+ <!-- footer -->
+ <footer class="shadow rounded page-footer font-small blue">
+  <div class="container text-md-center">
+    <div class="row">
+      <div class="col-lg-8 mt-md-2 py-1 address text-md-start">
+        <img src="https://api.elements.buildwithangga.com/storage/files/2/assets/Header/Header-workly/Logo.svg"
+          alt="logo" class="img-fluid mb-2" />
+        <h5 class="">Teksboxx</h5>
+        <p>
+          Simpang Tiga <br />
+          Pekanbaru
+        </p>
+        <div class="icon mt-md-2 social-media">
+          <a class="btn btn-outline-dark btn-floating m-1 text-white"
+            href="https://web.facebook.com/yudi.hendrawan.5055 " role="button "><i
+              class="fa-brands fa-facebook-f"></i></a>
+          <a class="btn btn-outline-dark btn-floating m-1 text-white"
+            href=" https://www.instagram.com/yudihendrawan_/" role="button "><i
+              class="fa-brands fa-instagram"></i></a>
+          <a class="btn btn-outline-dark btn-floating m-1 text-white" href="https://twitter.com/ayaamgaul "
+            role="button "><i class="fa-brands fa-twitter"></i></a>
+          <a class="btn btn-outline-dark btn-floating m-1 text-white"
+            href="https://www.youtube.com/channel/UCqDcG4jzYr87cnyYKHcRy6w " role="button "><i
+              class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="col-lg-2 py-1 list-group ml-5 text-md-start">
+      <h6>COSTUMER SERVICE</h6>
+          <a class="unstyled text-info d-lg-flex"href="https://teksboxx.com/profile">My Account</a>
+        </div>
+    <div class="col-lg-2 py-1 list-group ml-5 text-md-start">
+      <h6>MORE TO EXPLORE</h6>
+      <a class="unstyled text-info d-md-block" href="https://teksboxx.com/blog">Blog</a>
+      <a class="unstyled text-info d-md-block" href="https://teksboxx.com/article">Articles</a>
+      <a class="unstyled text-info d-md-block" href="https://teksboxx.com/tutorial">Tutorials</a>
+      <a class="unstyled text-info d-md-block" href="https://teksboxx.com/utilities">Ultilites App</a>
+    </div>
+    </div>
+    
+      <div class="row">
+      <hr class="clearfix w-100 d-sm-none pb-3" />
+      <div class="row col-lg-12 nav-footer logo">
+        <div class="mx-auto text-center">
+          <p>Our Partners</p>
+          <ul class="list-unstyled d-sm-inline-flex mb-1">
+            <li class="m-1 kotak" data-tilt data-tilt-scale="1.1">
+              <a href="https://cakopku.com/"><img src="img/logopartner/part-cako.png" ></a>
+            <li class="m-1 kotak " data-tilt data-tilt-scale="1.1">
+              <a href="https://bayuaryandi.com/"><img src="img/logopartner/part-bayu.png"></a>
+            </li>
+            <li class="m-1 kotak" data-tilt data-tilt-scale="1.1">
+              <a href="https://umri.ac.id/home/lang/id"><img src="img/logopartner/part-umri.png"></a>
+            <li class="m-1 kotak" data-tilt data-tilt-scale="1.1">
+              <a href="https://indahwrd.com/"><img src="img/logopartner/part-butiq.png"></a>
+            </li>
+            <li class="m-1 kotak" data-tilt data-tilt-scale="1.1">
+              <a href="http://sekilahpekanbaru.com/"><img src="img/logopartner/part-sekilaspku.png"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="copyright row d-flex justify-content-center border-top mx-0">
+    <p class="my-0">2022 Teksboxx | All rights reserved.</p>
+  </div>
+</footer>
+<!-- akhir dari footer -->
+
+  <!-- link javascript -->
+  <script type="text/javascript" src="js/vanilla-tilt.min.js"></script>
+  <script type="text/javascript" src="animate/wow.min.js"></script>
+  <script> new WOW().init();</script> 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <!-- SCRIPTS -->
+  <script src="js/jquery-1.12.3.min.js"></script>
+  <script src="js/custom.js"></script>
+
+</body>
+
+</html>
